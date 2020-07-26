@@ -10,6 +10,7 @@ namespace delEventEx
     public delegate void DelSwitchAbleDevice (SwitchPosition switchPosition); 
     public class SwitchDevice
     {
+        private const SwitchPosition on = SwitchPosition.On;
         private SwitchPosition _switchPosition;
         //public List<ISwitchable> _switchAbleDevices;
         //public DelSwitchAbleDevice delSwitchAbleDevice;
